@@ -27,3 +27,17 @@ Key concepts used:
 - Python libraries: scikit-learn, pandas
 
 **Code File:** project2_knn_iris.py
+Project 3: AI Recommendation Logic (TF-IDF - Tech Stack Recommender)
+A machine learning project that recommends the most relevant
+career/job roles based on a user's technical skills, using
+TF-IDF Vectorization and Cosine Similarity. This project
+introduces content-based recommendation systems, building on
+the classification concepts learned in Project 2.
+Key concepts used:
+Content-based filtering (matching items using their own attributes, not other users' behavior)
+TF-IDF (Term Frequency-Inverse Document Frequency) vectorization
+Cosine Similarity for measuring closeness between vectors
+Ranking and Top-N filtering of recommendation results
+Python libraries: scikit-learn, pandas
+Code File:tech_stack_recommender.py se project3_tech_stack_recommender.py
+
