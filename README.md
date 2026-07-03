@@ -43,3 +43,21 @@ Python libraries: scikit-learn, pandas
 
 **Code File**:tech_stack_recommender.py se project3_tech_stack_recommender.py
 
+## Project 4: Image or Text Recognition (Basic) — OCR Pipeline
+
+An AI project that extracts machine-readable text from a raw 
+input image using a pre-trained Optical Character Recognition 
+(OCR) engine — pytesseract (Google's Tesseract). This project 
+introduces basic computer vision and image pre-processing 
+concepts, building on the recommendation logic learned in 
+Project 3. This was an optional milestone in the internship.
+
+Key concepts used:
+- Optical Character Recognition (OCR) using pytesseract / Tesseract Engine
+- Image pre-processing: Grayscale conversion, Gaussian Blur, Adaptive Thresholding (Otsu's Method)
+- Confidence scoring and an 80% minimum confidence threshold filter
+- Transfer learning (using a pre-trained model instead of training from scratch)
+- Python libraries: OpenCV (cv2), pytesseract
+
+**Code File:** text_recognition_ocr.py
+
